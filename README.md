@@ -7,17 +7,18 @@ https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/
 
 ## Utilisation
 
-1. Incluez le fichier CSS :
+fichier CSS :
+
    ```html
    <link
      rel="stylesheet"
      href="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/styles/icons.css"
    />
    ```
-   UTILISATION HTML:
+UTILISATION HTML:
 
 ```html
-      <div class="icon icon-P_Noire_plein"></div>
+<div class="icon icon-P_Noire_plein"></div>
 ```
 
 P_Blanc_plein:
@@ -31,3 +32,28 @@ https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Tracé_Blanc.svg
 
 P_Tracé_Noir:
 https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Tracé_Noir.svg
+
+SOUS FORME D'IMAGE HTML:
+
+```html
+<img
+  src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Blanc_plein.svg"
+  alt=""
+/>
+
+<img
+  src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Noire_plein.svg"
+  alt=""
+/>
+
+<img
+  src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Tracé_Blanc.svg"
+  alt=""
+/>
+
+<img
+  src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Tracé_Noir.svg"
+  alt=""
+/>
+```
+
