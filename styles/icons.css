@@ -6,8 +6,8 @@ body {
 /* Conteneur de base */
 .icon {
   display: inline-block;
-  width: 1em; /* Ajustable */
-  height: 1em; /* Ajustable */
+  width: 4em; /* Ajustable */
+  height: 4em; /* Ajustable */
   fill: currentColor; /* Hérite de la couleur du texte */
   vertical-align: middle;
 }
