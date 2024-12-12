@@ -13,9 +13,11 @@ https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/
      rel="stylesheet"
      href="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/styles/icons.css"
    />
+
+      <div class="icon icon-P_Blanc_plein"></div>
    ```
    UTILISATION HTML:
-   <div class="icon icon-P_Blanc_plein"></div>
+
 
 P_Blanc_plein:
 https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Blanc_plein.svg
