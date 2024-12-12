@@ -22,7 +22,6 @@ UTILISATION HTML:
 <div class="icon icon-P_Noire_plein"></div>
 ```
 
-
 SOUS FORME D'IMAGE HTML:
 
 ```html
@@ -30,5 +29,4 @@ SOUS FORME D'IMAGE HTML:
   src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons-upload/Upload-01.svg"
   alt="Upload-01"
 />
-
 ```

@@ -2,8 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Kanit&family=Nanum+Gothic+Coding&family=Poppins&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Yatra+One&display=swap");
 
 body {
-  /* background: rgb(53, 77, 118); */
   font-family: Poppins, sans-serif;
+}
+
+/* Conteneur de base */
+.icon {
+  width: 2.2em;
+  height: 2.2em;
+  fill: currentColor;
+  vertical-align: middle;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 0.2s;
+}
+
+.icon:hover{
+transform: scale(1.1);
 }
 
 .titre-page,
@@ -38,19 +52,16 @@ p {
   justify-content: center;
 }
 
-.section-icones-upload p {
-  font-size: 9px;
+
+
+.copied {
+  animation: copiedAnimation 0.5s ease-in-out;
 }
 
-/* Conteneur de base */
-.icon {
-  width: 6em;
-  height: 6em;
-  fill: currentColor;
-  vertical-align: middle;
-  cursor: pointer;
+@keyframes copiedAnimation {
+  0% { background-color: #007bff; color: white; }
+  100% { background-color: transparent; color: inherit; }
 }
-
 
 
 
