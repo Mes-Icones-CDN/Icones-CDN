@@ -9,12 +9,13 @@ https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/
 
 fichier CSS :
 
-   ```html
-   <link
-     rel="stylesheet"
-     href="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/styles/icons.css"
-   />
-   ```
+```html
+<link
+  rel="stylesheet"
+  href="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/styles/icons.css"
+/>
+```
+
 UTILISATION HTML:
 
 ```html
@@ -56,4 +57,3 @@ SOUS FORME D'IMAGE HTML:
   alt=""
 />
 ```
-

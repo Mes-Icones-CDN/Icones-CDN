@@ -1,34 +1,75 @@
 /* ---------- ⥥ ICON LIBRARY STYLES ⥥ ---------- */
 
 body {
-    /* background: gray; */
+  background: gray;
 }
+
+.titre-page,
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.poubelle_titre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-icones {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-icones p {
+  font-size: 7px;
+}
+
 /* Conteneur de base */
 .icon {
-  display: inline-block;
-  width: 4em; /* Ajustable */
-  height: 4em; /* Ajustable */
-  fill: currentColor; /* Hérite de la couleur du texte */
+  width: 4em;
+  height: 4em;
+  fill: currentColor;
   vertical-align: middle;
 }
 
+
+
+
+
+
 /* Icônes spécifiques */
 .icon-P_Blanc_plein {
-  background: url('../icons/P_Blanc_plein.svg') no-repeat center;
+  background: url("../icons/P_Blanc_plein.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-P_Noire_plein {
-  background: url('../icons/P_Noire_plein.svg') no-repeat center;
+  background: url("../icons/P_Noire_plein.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-P_Tracé_Blanc {
-  background: url('../icons/P_Tracé_Blanc.svg') no-repeat center;
+  background: url("../icons/P_Tracé_Blanc.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-P_Tracé_Noir {
-  background: url('../icons/P_Tracé_Noir.svg') no-repeat center;
+  background: url("../icons/P_Tracé_Noir.svg") no-repeat center;
   background-size: contain;
+}
+
+
+
+
+
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
