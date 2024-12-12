@@ -19,20 +19,20 @@ p {
 
 .section-icones {
   
-  padding: 30px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .section-icones p {
-  font-size: 8px;
+  font-size: 9px;
 }
 
 /* Conteneur de base */
 .icon {
-  width: 4em;
-  height: 4em;
+  width: 6em;
+  height: 6em;
   fill: currentColor;
   vertical-align: middle;
 }
