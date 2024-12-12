@@ -1,13 +1,10 @@
 /* ---------- ⥥ ICON LIBRARY STYLES ⥥ ---------- */
-@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Kanit&family=Nanum+Gothic+Coding&family=Poppins&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Yatra+One&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Kanit&family=Nanum+Gothic+Coding&family=Poppins&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Yatra+One&display=swap");
 
 body {
   background: rgb(53, 77, 118);
   font-family: Poppins, sans-serif;
 }
-
-
 
 .titre-page,
 p {
@@ -17,7 +14,7 @@ p {
 }
 
 .poubelle_titre {
-margin: 0;
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,11 +39,6 @@ margin: 0;
   vertical-align: middle;
 }
 
-
-
-
-
-
 /* Icônes spécifiques */
 .icon-P_Blanc_plein {
   background: url("../icons/P_Blanc_plein.svg") no-repeat center;
@@ -69,30 +61,24 @@ margin: 0;
 }
 
 .icon-bin-line-open {
-    background: url("../icons/bin-line-open.svg") no-repeat center;
+  background: url("../icons/bin-line-open.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-bin-line {
-    background: url("../icons/bin-line.svg") no-repeat center;
+  background: url("../icons/bin-line.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-bin-plein-plein {
-    background: url("../icons/bin-plein-plein.svg") no-repeat center;
+  background: url("../icons/bin-plein-plein.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-bin-plein {
-    background: url("../icons/bin-plein.svg") no-repeat center;
+  background: url("../icons/bin-plein.svg") no-repeat center;
   background-size: contain;
 }
-
-
-
-
-
-
 
 .footer {
   display: flex;
