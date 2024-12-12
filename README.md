@@ -14,7 +14,7 @@ https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/
      href="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/styles/icons.css"
    />
 
-      <div class="icon icon-P_Blanc_plein"></div>
+      <div class="icon icon-P_Noire_plein"></div>
    ```
    UTILISATION HTML:
 
