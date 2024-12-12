@@ -135,7 +135,7 @@ p {
   justify-content: center;
 }
 
-.poubelle_titre {
+.categorie {
   margin: 0;
   display: flex;
   align-items: center;
@@ -149,9 +149,6 @@ p {
   justify-content: center;
 }
 
-.section-icones-poubelle p {
-  font-size: 9px;
-}
 
 .section-icones-upload {
   margin-bottom: 50px;
@@ -159,6 +156,15 @@ p {
   align-items: center;
   justify-content: center;
 }
+
+.section-icones-reseaux {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 .copied {
   animation: copiedAnimation 0.5s ease-in-out;
@@ -237,15 +243,22 @@ p {
   background-size: contain;
 }
 
-/* .footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-/* Contenu principal avant le footer */
-/* main {
-  flex: 1;
-} */
+/* ICONES RESEAUX  */
+.icon-github01 {
+  background: url("../icons-reseaux/github01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-github02 {
+  background: url("../icons-reseaux/github02.svg") no-repeat center;
+  background-size: contain;
+}
+
+
+
+
+
+
 /* Footer collé en bas */
 .footer {
   background-color: #f8f9fa; /* Couleur de fond du footer */
