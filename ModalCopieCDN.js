@@ -1,9 +1,9 @@
 // Récupérer les éléments
-const openModalBtn = document.querySelector(".open-modal-btn");
-const modal = document.getElementById("codeModal");
-const closeModalBtn = modal.querySelector(".close-btn");
-const copyBtn = modal.querySelector(".copy-btn");
-const codeBlock = modal.querySelector("#code-block");
+const openModalBtn = document.querySelector(".open-modal-btn-cdn");
+const modal = document.getElementById("codeModal-cdn");
+const closeModalBtn = modal.querySelector(".close-btn-cdn");
+const copyBtn = modal.querySelector(".copy-btn-cdn");
+const codeBlock = modal.querySelector("#code-block-cdn");
 
 // Ouvrir la modale
 openModalBtn.addEventListener("click", () => {
