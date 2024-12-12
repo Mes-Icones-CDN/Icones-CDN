@@ -39,21 +39,21 @@ SOUS FORME D'IMAGE HTML:
 ```html
 <img
   src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Blanc_plein.svg"
-  alt=""
+  alt="Blanc_plein"
 />
 
 <img
   src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Noire_plein.svg"
-  alt=""
+  alt="Noire_plein"
 />
 
 <img
   src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Tracé_Blanc.svg"
-  alt=""
+  alt="Tracé_Blanc"
 />
 
 <img
   src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Tracé_Noir.svg"
-  alt=""
+  alt="Tracé_Noir"
 />
 ```
