@@ -3,39 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Icon Library "Poubelles"</title>
+    <title>My Icon Library</title>
     <link rel="stylesheet" href="./styles/icons.css" />
   </head>
   <body>
-    <h1 class="titre-page">My Icon Library "Poubelles"</h1>
+    <header class="header">
+      <img src="/logo-plein.png" alt="Logo" class="logo" />
+
+      <!-- MODAL COPIE  -->
+      <button class="open-modal-btn">CDN</button>
+
+      <div class="modal" id="codeModal">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <pre>
+           <code id="code-block">
+        &lt;img
+          src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons-upload/Upload-01.svg"
+          alt=""
+        /&gt;
+          </code>
+         </pre>
+          <button class="copy-btn">Copier le code</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- TITRE PAGE  -->
+    <h1 class="titre-page">My Icon Library</h1>
 
     <!-- SECTION ICONE POUBELLES  -->
     <section class="section-poubelle">
       <h1 class="poubelle_titre">Poubelles:</h1>
       <div class="section-icones-poubelle">
-
         <div onclick="copyToClipboard('P_Noire_plein.svg')">
-          <div class="icon icon-P_Noire_plein" title="P_Noire_plein"></div>
+          <div class="icon icon-P_Noire_plein" title="+Click pour copier"></div>
         </div>
 
         <div onclick="copyToClipboard('P_Tracé_Noir.svg')">
-          <div class="icon icon-P_Tracé_Noir" title="P_Tracé_Noir"></div>
+          <div class="icon icon-P_Tracé_Noir" title="+Click pour copier"></div>
         </div>
 
         <div onclick="copyToClipboard('bin-line-open.svg')">
-          <div class="icon icon-bin-line-open" title="P_Tracé_Noir"></div>
+          <div class="icon icon-bin-line-open" title="+Click pour copier"></div>
         </div>
 
         <div onclick="copyToClipboard('bin-line.svg')">
-          <div class="icon icon-bin-line" title="bin-line"></div>
+          <div class="icon icon-bin-line" title="+Click pour copier"></div>
         </div>
 
         <div onclick="copyToClipboard('bin-plein-plein.svg')">
-          <div class="icon icon-bin-plein-plein" title="bin-plein-plein"></div>
+          <div
+            class="icon icon-bin-plein-plein"
+            title="+Click pour copier"
+          ></div>
         </div>
 
         <div onclick="copyToClipboard('bin-plein.svg')">
-          <div class="icon icon-bin-plein" title="bin-plein"></div>
+          <div class="icon icon-bin-plein" title="+Click pour copier"></div>
         </div>
       </div>
     </section>
@@ -44,21 +69,20 @@
     <section class="section-upload">
       <h1 class="poubelle_titre">Upload:</h1>
       <div class="section-icones-upload">
-
         <div onclick="copyToClipboard('Upload-01.svg')">
-          <div class="icon icon-Upload-01" title="Upload-01"></div>
+          <div class="icon icon-Upload-01" title="+Click pour copier"></div>
         </div>
 
         <div onclick="copyToClipboard('Upload-02.svg')">
-          <div class="icon icon-Upload-02" title="Upload-02"></div>
+          <div class="icon icon-Upload-02" title="+Click pour copier"></div>
         </div>
 
         <div onclick="copyToClipboard('Upload-03.svg')">
-          <div class="icon icon-Upload-03" title="Upload-01"></div>
+          <div class="icon icon-Upload-03" title="+Click pour copier"></div>
         </div>
 
         <div onclick="copyToClipboard('Upload-04.svg')">
-          <div class="icon icon-Upload-04" title="Upload-01"></div>
+          <div class="icon icon-Upload-04" title="+Click pour copier"></div>
         </div>
       </div>
     </section>
@@ -68,5 +92,6 @@
     </footer>
 
     <script src="/ClickCopie.js"></script>
+    <script src="/ModalCopie.js"></script>
   </body>
 </html>

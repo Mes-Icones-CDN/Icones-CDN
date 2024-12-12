@@ -1,8 +1,116 @@
 /* ---------- ⥥ ICON LIBRARY STYLES ⥥ ---------- */
 @import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Kanit&family=Nanum+Gothic+Coding&family=Poppins&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Yatra+One&display=swap");
 
-body {
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
   font-family: Poppins, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Style pour le conteneur d'en-tête */
+.header {
+  position: relative; /* Permet de gérer d'autres éléments si besoin */
+  display: flex;      /* Pour faciliter l'alignement */
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+/* MODAL COPIE CDN  */
+/* Style pour le bouton */
+.open-modal-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #20374e;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.open-modal-btn:hover {
+  background-color: #636bad;
+}
+
+/* Styles pour la modale */
+.modal {
+  display: none; /* Par défaut, masquée */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.675); /* Fond semi-transparent */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #b3d0ee;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Style pour le bouton de fermeture */
+.close-btn {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+/* Style pour le cadre contenant le code */
+pre {
+  background-color: #a0b1c3;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+}
+
+/* Style pour le bouton "Copier le code" */
+.copy-btn {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #202a4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background-color: #636bad;
+}
+
+
+/* Style pour le logo */
+.logo {
+  height: 50px; /* Ajustez la taille du logo */
+  width: auto; /* Maintient les proportions */
+  cursor: pointer; /* Optionnel : montre qu'il est cliquable */
+}
+
+
+section {
+    flex: 1;
 }
 
 /* Conteneur de base */
@@ -16,8 +124,8 @@ body {
   transition-duration: 0.2s;
 }
 
-.icon:hover{
-transform: scale(1.1);
+.icon:hover {
+  transform: scale(1.1);
 }
 
 .titre-page,
@@ -52,18 +160,20 @@ p {
   justify-content: center;
 }
 
-
-
 .copied {
   animation: copiedAnimation 0.5s ease-in-out;
 }
 
 @keyframes copiedAnimation {
-  0% { background-color: #007bff; color: white; }
-  100% { background-color: transparent; color: inherit; }
+  0% {
+    background-color: #007bff;
+    color: white;
+  }
+  100% {
+    background-color: transparent;
+    color: inherit;
+  }
 }
-
-
 
 /* ICONES POUBELLE  */
 .icon-P_Blanc_plein {
@@ -106,7 +216,6 @@ p {
   background-size: contain;
 }
 
-
 /* ICONES UPLOAD  */
 .icon-Upload-01 {
   background: url("../icons-upload/Upload-01.svg") no-repeat center;
@@ -128,10 +237,19 @@ p {
   background-size: contain;
 }
 
-
-
-.footer {
+/* .footer {
   display: flex;
   align-items: center;
   justify-content: center;
+} */
+/* Contenu principal avant le footer */
+/* main {
+  flex: 1;
+} */
+/* Footer collé en bas */
+.footer {
+  background-color: #f8f9fa; /* Couleur de fond du footer */
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #ddd; /* Optionnel : bordure supérieure */
 }
