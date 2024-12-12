@@ -20,14 +20,25 @@ p {
   justify-content: center;
 }
 
-.section-icones {
+.section-icones-poubelle {
   margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.section-icones p {
+.section-icones-poubelle p {
+  font-size: 9px;
+}
+
+.section-icones-upload {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-icones-upload p {
   font-size: 9px;
 }
 
@@ -37,9 +48,13 @@ p {
   height: 6em;
   fill: currentColor;
   vertical-align: middle;
+  cursor: pointer;
 }
 
-/* Icônes spécifiques */
+
+
+
+/* ICONES POUBELLE  */
 .icon-P_Blanc_plein {
   background: url("../icons-poubelle/P_Blanc_plein.svg") no-repeat center;
   background-size: contain;
@@ -79,6 +94,30 @@ p {
   background: url("../icons-poubelle/bin-plein.svg") no-repeat center;
   background-size: contain;
 }
+
+
+/* ICONES UPLOAD  */
+.icon-Upload-01 {
+  background: url("../icons-upload/Upload-01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-Upload-02 {
+  background: url("../icons-upload/Upload-02.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-Upload-03 {
+  background: url("../icons-upload/Upload-03.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-Upload-04 {
+  background: url("../icons-upload/Upload-04.svg") no-repeat center;
+  background-size: contain;
+}
+
+
 
 .footer {
   display: flex;
