@@ -1,8 +1,13 @@
 /* ---------- ⥥ ICON LIBRARY STYLES ⥥ ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Kanit&family=Nanum+Gothic+Coding&family=Poppins&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Yatra+One&display=swap');
+
 
 body {
-  background: gray;
+  background: rgb(53, 77, 118);
+  font-family: Poppins, sans-serif;
 }
+
+
 
 .titre-page,
 p {
@@ -12,14 +17,14 @@ p {
 }
 
 .poubelle_titre {
+margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .section-icones {
-  
-  padding: 10px;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,6 +65,26 @@ p {
 
 .icon-P_Tracé_Noir {
   background: url("../icons/P_Tracé_Noir.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-bin-line-open {
+    background: url("../icons/bin-line-open.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-bin-line {
+    background: url("../icons/bin-line.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-bin-plein-plein {
+    background: url("../icons/bin-plein-plein.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-bin-plein {
+    background: url("../icons/bin-plein.svg") no-repeat center;
   background-size: contain;
 }
 
