@@ -22,38 +22,13 @@ UTILISATION HTML:
 <div class="icon icon-P_Noire_plein"></div>
 ```
 
-P_Blanc_plein:
-https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Blanc_plein.svg
-
-P_Noire_plein:
-https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Noire_plein.svg
-
-P_Tracé_Blanc:
-https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Tracé_Blanc.svg
-
-P_Tracé_Noir:
-https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Tracé_Noir.svg
 
 SOUS FORME D'IMAGE HTML:
 
 ```html
 <img
-  src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Blanc_plein.svg"
-  alt="Blanc_plein"
+  src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons-upload/Upload-01.svg"
+  alt="Upload-01"
 />
 
-<img
-  src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Noire_plein.svg"
-  alt="Noire_plein"
-/>
-
-<img
-  src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Tracé_Blanc.svg"
-  alt="Tracé_Blanc"
-/>
-
-<img
-  src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons/P_Tracé_Noir.svg"
-  alt="Tracé_Noir"
-/>
 ```
