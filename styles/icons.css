@@ -165,15 +165,14 @@ p {
   justify-content: center;
 }
 
-
-
+/* SECTION ICONES  */
 
 .section-icones-poubelle {
   margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-    gap: 10px;
+  gap: 10px;
 }
 
 .section-icones-upload {
@@ -189,7 +188,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-    gap: 10px;
+  gap: 10px;
 }
 
 .section-icones-cubic {
@@ -199,10 +198,6 @@ p {
   justify-content: center;
   gap: 10px;
 }
-
-
-
-
 
 .copied {
   animation: copiedAnimation 0.5s ease-in-out;
@@ -218,90 +213,6 @@ p {
     color: inherit;
   }
 }
-
-/* ICONES POUBELLE  */
-.icon-P_Blanc_plein {
-  background: url("../icons-poubelle/P_Blanc_plein.svg") no-repeat center;
-  background-size: contain;
-}
-
-.icon-P_Noire_plein {
-  background: url("../icons-poubelle/P_Noire_plein.svg") no-repeat center;
-  background-size: contain;
-}
-
-.icon-P_Tracé_Blanc {
-  background: url("../icons-poubelle/P_Tracé_Blanc.svg") no-repeat center;
-  background-size: contain;
-}
-
-.icon-P_Tracé_Noir {
-  background: url("../icons-poubelle/P_Tracé_Noir.svg") no-repeat center;
-  background-size: contain;
-}
-
-.icon-bin-line-open {
-  background: url("../icons-poubelle/bin-line-open.svg") no-repeat center;
-  background-size: contain;
-}
-
-.icon-bin-line {
-  background: url("../icons-poubelle/bin-line.svg") no-repeat center;
-  background-size: contain;
-}
-
-.icon-bin-plein-plein {
-  background: url("../icons-poubelle/bin-plein-plein.svg") no-repeat center;
-  background-size: contain;
-}
-
-.icon-bin-plein {
-  background: url("../icons-poubelle/bin-plein.svg") no-repeat center;
-  background-size: contain;
-}
-
-
-
-
-
-/* ICONES UPLOAD  */
-.icon-Upload-01 {
-  background: url("../icons-upload/Upload-01.svg") no-repeat center;
-  background-size: contain;
-}
-
-.icon-Upload-02 {
-  background: url("../icons-upload/Upload-02.svg") no-repeat center;
-  background-size: contain;
-}
-
-.icon-Upload-03 {
-  background: url("../icons-upload/Upload-03.svg") no-repeat center;
-  background-size: contain;
-}
-
-.icon-Upload-04 {
-  background: url("../icons-upload/Upload-04.svg") no-repeat center;
-  background-size: contain;
-}
-
-
-
-
-
-/* ICONES RESEAUX  */
-.icon-github01 {
-  background: url("../icons-reseaux/github01.svg") no-repeat center;
-  background-size: contain;
-}
-
-.icon-github02 {
-  background: url("../icons-reseaux/github02.svg") no-repeat center;
-  background-size: contain;
-}
-
-
-
 
 /* ICONES CUBIC  */
 .icon-ballon-cubic {
@@ -374,9 +285,78 @@ p {
   background-size: contain;
 }
 
+/* ICONES UPLOAD  */
+.icon-Upload-01 {
+  background: url("../icons-upload/Upload-01.svg") no-repeat center;
+  background-size: contain;
+}
 
+.icon-Upload-02 {
+  background: url("../icons-upload/Upload-02.svg") no-repeat center;
+  background-size: contain;
+}
 
+.icon-Upload-03 {
+  background: url("../icons-upload/Upload-03.svg") no-repeat center;
+  background-size: contain;
+}
 
+.icon-Upload-04 {
+  background: url("../icons-upload/Upload-04.svg") no-repeat center;
+  background-size: contain;
+}
+
+/* ICONES RESEAUX  */
+.icon-github01 {
+  background: url("../icons-reseaux/github01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-github02 {
+  background: url("../icons-reseaux/github02.svg") no-repeat center;
+  background-size: contain;
+}
+
+/* ICONES POUBELLE  */
+.icon-P_Blanc_plein {
+  background: url("../icons-poubelle/P_Blanc_plein.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-P_Noire_plein {
+  background: url("../icons-poubelle/P_Noire_plein.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-P_Tracé_Blanc {
+  background: url("../icons-poubelle/P_Tracé_Blanc.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-P_Tracé_Noir {
+  background: url("../icons-poubelle/P_Tracé_Noir.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-bin-line-open {
+  background: url("../icons-poubelle/bin-line-open.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-bin-line {
+  background: url("../icons-poubelle/bin-line.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-bin-plein-plein {
+  background: url("../icons-poubelle/bin-plein-plein.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-bin-plein {
+  background: url("../icons-poubelle/bin-plein.svg") no-repeat center;
+  background-size: contain;
+}
 
 /* Footer collé en bas */
 .footer {
