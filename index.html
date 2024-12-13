@@ -5,46 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Icon Library</title>
     <link rel="stylesheet" href="./styles/icons.css" />
-    <link
-      rel="stylesheet"
-      href="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/styles/icons.css"
-    />
+    <link rel="stylesheet" href="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/styles/icons.css"/>
   </head>
+
+
 
   <body>
     <header class="header">
-      <img src="./logo-plein.png" alt="Logo" class="logo" />
+      <img src="./logo-plein.png" alt="Logo-ahp" class="logo-ahp" />
 
-      <!-- MODAL COPIE CDN  -->
-      <button class="open-modal-btn-cdn">CDN</button>
+      <!-- MODAL COPIE  -->
+      <button class="open-modal-btn">CDN (html head)</button>
 
-      <div class="modal" id="codeModal-cdn">
-        <div class="modal-content-cdn">
-          <span class="close-btn-cdn">&times;</span>
+      <div class="modal" id="codeModal">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
           <pre>
-           <code id="code-block-cdn">
-        &lt;img
-          src="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/icons-upload/Upload-01.svg"
-          alt=""
-        /&gt;
+           <code id="code-block">
+&lt;link rel="stylesheet" href="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/styles/icons.css"/&gt;
           </code>
+          
          </pre>
-          <button class="copy-btn-cdn">Copier le code</button>
-        </div>
-      </div>
-
-      <!-- MODAL COPIE @import (CSS)  -->
-      <button class="open-modal-btn-import-css">@import (CSS)</button>
-
-      <div class="modal" id="codeModal-import-css">
-        <div class="modal-content-import-css">
-          <span class="close-btn-import-css">&times;</span>
-          <pre>
-           <code id="code-block-import-css">
-@import url("https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/styles/icons.css");
-          </code>
-         </pre>
-          <button class="copy-btn-import-css">Copier le code</button>
+          <button class="copy-btn">Copier le code</button>
         </div>
       </div>
 
@@ -134,7 +116,6 @@
     </footer>
 
     <script src="./ClickCopie.js"></script>
-    <script src="./ModalCopieCDN.js"></script>
-    <script src="./ModalCopieImportCSS.js"></script>
+    <script src="./ModalCopie.js"></script>
   </body>
 </html>
