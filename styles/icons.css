@@ -4,6 +4,10 @@
 :root {
   /* BODY  */
   --background-body-color: #ffffff;
+  --texte-color-body: black;
+    /* ICONES  */
+  --background-icons-cadre: #cfcfcf;
+  --border-radius-icons-cadre: 3px;
   /* LOGO  */
   --taille-logo: 30px;
   /* MODAL COLOR  */
@@ -19,6 +23,7 @@
   /* MODAL TAILLE  */
   --largeur-modal-code: 710px;
   --largeur-modal-code-nav-use: 90%;
+
 }
 
 body,
@@ -26,6 +31,7 @@ html {
   margin: 0;
   padding: 0;
   background: var(--background-body-color);
+  color: var(--texte-color-body);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -133,12 +139,29 @@ section {
   flex: 1;
 }
 
+/* Conteneur des icônes avec CADRE ICONES */
+.icon-container {
+  width: 3em; 
+  height: 3em; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-icons-cadre); 
+  border-radius: var(--border-radius-icons-cadre); 
+  -webkit-box-shadow: inset 5px 5px 15px 5px rgba(55, 55, 55, 0.33); 
+box-shadow: inset 5px 5px 15px 5px rgba(53, 53, 53, 0.33);
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  margin: 0.5em; /* Espacement entre les cadres */
+}
+
 /* Conteneur de base */
 .icon {
   width: 2.2em;
   height: 2.2em;
   fill: currentColor;
   vertical-align: middle;
+  border-radius: 3px;
   cursor: pointer;
   transition-property: transform;
   transition-duration: 0.2s;
@@ -169,7 +192,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+
 }
 
 .section-icones-upload {
@@ -177,7 +200,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+
 }
 
 .section-icones-logo-ahp {
@@ -185,7 +208,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+
 }
 
 .section-icones-reseaux {
@@ -193,7 +216,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+
 }
 
 .section-icones-cubic {
@@ -201,7 +224,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+
 }
 
 .copied {
