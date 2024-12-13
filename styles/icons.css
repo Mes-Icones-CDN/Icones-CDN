@@ -9,6 +9,10 @@
   --background-icons-cadre: #cfcfcf;
   --border-radius-icons-cadre: 3px;
   --color-icones: brightness(0) saturate(100%) invert(99%) sepia(13%) saturate(176%) hue-rotate(240deg) brightness(114%) contrast(86%);
+  /* ICONES TAILLE  */
+  --icons-taille: 2em;
+  --cadre-icons-taille: 4em;
+
   /* LOGO  */
   --taille-logo: 30px;
   /* MODAL COLOR  */
@@ -150,14 +154,14 @@ section {
 
 /* Conteneur des icônes avec CADRE ICONES */
 .icon-container {
-  width: 3em;
-  height: 3em;
+  width: var(--cadre-icons-taille);
+  height: var(--cadre-icons-taille);
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: var(--border-radius-icons-cadre);
 
-border-radius: 3px;
+  border-radius: 3px;
   background: linear-gradient(145deg, #18181a, #141416);
   box-shadow: 5px 5px 13px #0d0d0e,
     -5px -5px 13px #1f1f22;
@@ -170,8 +174,8 @@ border-radius: 3px;
 
 /* Conteneur de base */
 .icon {
-  width: 2em;
-  height: 2em;
+  width: var(--icons-taille);
+  height: var(--icons-taille);
   filter: var(--color-icones);
   vertical-align: middle;
   border-radius: 3px;
@@ -346,8 +350,8 @@ p {
 }
 
 /* ICONES LOGO  */
-.icon-logo-ahp-01 {
-  background: url("../icons/logo-ahp-01.svg") no-repeat center;
+.icon-logo-ahp-3D {
+  background: url("../icons/logo-ahp-3D.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -420,10 +424,10 @@ p {
 
 /* Footer collé en bas */
 .footer {
-  background-color: #f8f9fa;
+  background-color: #f8f9fa4d;
   /* Couleur de fond du footer */
   text-align: center;
   padding: 10px;
-  border-top: 1px solid #ddd;
-  /* Optionnel : bordure supérieure */
+  color: var(--background-body-color)
+    /* Optionnel : bordure supérieure */
 }

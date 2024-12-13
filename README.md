@@ -32,7 +32,7 @@ SOUS FORME D'IMAGE HTML:
   alt="Upload-01"
 />
 ```
-COMMANDE SVGO
+COMMANDE SVGO (Terminal)
 ```
 Get-ChildItem "C:\Users\djodj\Desktop\CODE Icons CDN\icons\*.svg" | ForEach-Object { svgo --config="C:\Users\djodj\Desktop\CODE Icons CDN\svgo.config.mjs" $_.FullName }
 ```
