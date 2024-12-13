@@ -12,9 +12,11 @@ fichier CSS :
 ```html
 <link
   rel="stylesheet"
-  href="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/styles/icons.css"
+  href="https://mes-icones-cdn.github.io/Icones-CDN/styles/iconsCDN.css"
 />
 ```
+
+
 
 UTILISATION HTML:
 

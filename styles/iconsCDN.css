@@ -1,52 +1,13 @@
 
+/* Conteneur de base */
 .icon {
-  width: 2.2em;
-  height: 2.2em;
-  fill: currentColor;
+  display: inline-block;
+  width: 1em; /* Ajustable */
+  height: 1em; /* Ajustable */
+  fill: currentColor; /* Hérite de la couleur du texte */
   vertical-align: middle;
 }
 
-/* SECTION ICONES  */
-
-.section-icones-poubelle {
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.section-icones-upload {
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.section-icones-logo-ahp {
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.section-icones-reseaux {
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.section-icones-cubic {
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
 /* ICONES CUBIC  */
 .icon-ballon-cubic {
   background: url("../icons/ballon-cubic.svg") no-repeat center;
