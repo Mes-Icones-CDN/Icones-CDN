@@ -165,11 +165,15 @@ p {
   justify-content: center;
 }
 
+
+
+
 .section-icones-poubelle {
   margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+    gap: 10px;
 }
 
 .section-icones-upload {
@@ -177,6 +181,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
 
 .section-icones-reseaux {
@@ -184,7 +189,20 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+    gap: 10px;
 }
+
+.section-icones-cubic {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+
 
 .copied {
   animation: copiedAnimation 0.5s ease-in-out;
@@ -242,6 +260,10 @@ p {
   background-size: contain;
 }
 
+
+
+
+
 /* ICONES UPLOAD  */
 .icon-Upload-01 {
   background: url("../icons-upload/Upload-01.svg") no-repeat center;
@@ -263,6 +285,10 @@ p {
   background-size: contain;
 }
 
+
+
+
+
 /* ICONES RESEAUX  */
 .icon-github01 {
   background: url("../icons-reseaux/github01.svg") no-repeat center;
@@ -273,6 +299,84 @@ p {
   background: url("../icons-reseaux/github02.svg") no-repeat center;
   background-size: contain;
 }
+
+
+
+
+/* ICONES CUBIC  */
+.icon-ballon-cubic {
+  background: url("../icons-cubic/ballon-cubic.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-bouche-cubic {
+  background: url("../icons-cubic/bouche-cubic.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-camera-cubic {
+  background: url("../icons-cubic/camera-cubic.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-coeur-cubic {
+  background: url("../icons-cubic/coeur-cubic.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-cube-cubic {
+  background: url("../icons-cubic/cube-cubic.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-dl-cubic {
+  background: url("../icons-cubic/dl-cubic.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-fader-cubic {
+  background: url("../icons-cubic/fader-cubic.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-fleche-cubic {
+  background: url("../icons-cubic/fleche-cubic.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-multi-cubic {
+  background: url("../icons-cubic/multi-cubic.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-perso-cubic {
+  background: url("../icons-cubic/perso-cubic.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-photo-cubic {
+  background: url("../icons-cubic/photo-cubic.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-play-cubic {
+  background: url("../icons-cubic/play-cubic.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-play-fleche-cubic {
+  background: url("../icons-cubic/play-fleche-cubic.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-sablier-cubic {
+  background: url("../icons-cubic/sablier-cubic.svg") no-repeat center;
+  background-size: contain;
+}
+
+
+
+
 
 /* Footer collé en bas */
 .footer {
