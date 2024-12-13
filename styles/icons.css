@@ -25,15 +25,12 @@ body,
 html {
   margin: 0;
   padding: 0;
-  height: 100%;
-  font-family: Poppins, sans-serif;
-}
-
-body {
+  background: var(--background-body-color);
   display: flex;
   flex-direction: column;
-  background-color: var(--background-body-color);
   min-height: 100vh;
+  height: 100%;
+  font-family: Poppins, sans-serif;
 }
 
 /* Style pour le conteneur d'en-tête */
@@ -126,7 +123,7 @@ pre {
 }
 
 /* Style pour le logo */
-.logo-ahp {
+.icon-logo-ahp-01 {
   height: var(--taille-logo); /* Ajustez la taille du logo */
   width: auto; /* Maintient les proportions */
   cursor: pointer; /* Optionnel : montre qu'il est cliquable */
@@ -224,151 +221,156 @@ p {
 
 /* ICONES CUBIC  */
 .icon-ballon-cubic {
-  background: url("../icons-cubic/ballon-cubic.svg") no-repeat center;
+  background: url("../icons/ballon-cubic.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-bouche-cubic {
-  background: url("../icons-cubic/bouche-cubic.svg") no-repeat center;
+  background: url("../icons/bouche-cubic.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-camera-cubic {
-  background: url("../icons-cubic/camera-cubic.svg") no-repeat center;
+  background: url("../icons/camera-cubic.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-coeur-cubic {
-  background: url("../icons-cubic/coeur-cubic.svg") no-repeat center;
+  background: url("../icons/coeur-cubic.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-cube-cubic {
-  background: url("../icons-cubic/cube-cubic.svg") no-repeat center;
+  background: url("../icons/cube-cubic.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-dl-cubic {
-  background: url("../icons-cubic/dl-cubic.svg") no-repeat center;
+  background: url("../icons/dl-cubic.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-fader-cubic {
-  background: url("../icons-cubic/fader-cubic.svg") no-repeat center;
+  background: url("../icons/fader-cubic.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-fleche-cubic {
-  background: url("../icons-cubic/fleche-cubic.svg") no-repeat center;
+  background: url("../icons/fleche-cubic.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-multi-cubic {
-  background: url("../icons-cubic/multi-cubic.svg") no-repeat center;
+  background: url("../icons/multi-cubic.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-perso-cubic {
-  background: url("../icons-cubic/perso-cubic.svg") no-repeat center;
+  background: url("../icons/perso-cubic.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-photo-cubic {
-  background: url("../icons-cubic/photo-cubic.svg") no-repeat center;
+  background: url("../icons/photo-cubic.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-play-cubic {
-  background: url("../icons-cubic/play-cubic.svg") no-repeat center;
+  background: url("../icons/play-cubic.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-play-fleche-cubic {
-  background: url("../icons-cubic/play-fleche-cubic.svg") no-repeat center;
+  background: url("../icons/play-fleche-cubic.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-sablier-cubic {
-  background: url("../icons-cubic/sablier-cubic.svg") no-repeat center;
+  background: url("../icons/sablier-cubic.svg") no-repeat center;
   background-size: contain;
 }
 
 /* ICONES UPLOAD  */
 .icon-Upload-01 {
-  background: url("../icons-upload/Upload-01.svg") no-repeat center;
+  background: url("../icons/Upload-01.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-Upload-02 {
-  background: url("../icons-upload/Upload-02.svg") no-repeat center;
+  background: url("../icons/Upload-02.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-Upload-03 {
-  background: url("../icons-upload/Upload-03.svg") no-repeat center;
+  background: url("../icons/Upload-03.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-Upload-04 {
-  background: url("../icons-upload/Upload-04.svg") no-repeat center;
+  background: url("../icons/Upload-04.svg") no-repeat center;
   background-size: contain;
 }
 
 /* ICONES LOGO  */
 .icon-logo-ahp-01 {
-  background: url("../icons-logo-ahp/logo-ahp-01.svg") no-repeat center;
+  background: url("../icons/logo-ahp-01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-3Dwhite-logo-ahp {
+  background: url("../icons/3Dwhite-logo-ahp.svg") no-repeat center;
   background-size: contain;
 }
 
 /* ICONES RESEAUX  */
 .icon-github01 {
-  background: url("../icons-reseaux/github01.svg") no-repeat center;
+  background: url("../icons/github01.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-github02 {
-  background: url("../icons-reseaux/github02.svg") no-repeat center;
+  background: url("../icons/github02.svg") no-repeat center;
   background-size: contain;
 }
 
 /* ICONES POUBELLE  */
 .icon-P_Blanc_plein {
-  background: url("../icons-poubelle/P_Blanc_plein.svg") no-repeat center;
+  background: url("../icons/P_Blanc_plein.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-P_Noire_plein {
-  background: url("../icons-poubelle/P_Noire_plein.svg") no-repeat center;
+  background: url("../icons/P_Noire_plein.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-P_Tracé_Blanc {
-  background: url("../icons-poubelle/P_Tracé_Blanc.svg") no-repeat center;
+  background: url("../icons/P_Tracé_Blanc.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-P_Tracé_Noir {
-  background: url("../icons-poubelle/P_Tracé_Noir.svg") no-repeat center;
+  background: url("../icons/P_Tracé_Noir.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-bin-line-open {
-  background: url("../icons-poubelle/bin-line-open.svg") no-repeat center;
+  background: url("../icons/bin-line-open.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-bin-line {
-  background: url("../icons-poubelle/bin-line.svg") no-repeat center;
+  background: url("../icons/bin-line.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-bin-plein-plein {
-  background: url("../icons-poubelle/bin-plein-plein.svg") no-repeat center;
+  background: url("../icons/bin-plein-plein.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-bin-plein {
-  background: url("../icons-poubelle/bin-plein.svg") no-repeat center;
+  background: url("../icons/bin-plein.svg") no-repeat center;
   background-size: contain;
 }
 
