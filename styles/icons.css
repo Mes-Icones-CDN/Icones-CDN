@@ -322,6 +322,11 @@ p {
   background-size: contain;
 }
 
+.icon-play {
+  background: url("../icons/play.svg") no-repeat center;
+  background-size: contain;
+}
+
 /* ICONES RESEAUX  */
 .icon-github01 {
   background: url("../icons/github01.svg") no-repeat center;
