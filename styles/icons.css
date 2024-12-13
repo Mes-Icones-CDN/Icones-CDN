@@ -1,13 +1,14 @@
 /* ---------- ⥥ ICON LIBRARY STYLES ⥥ ---------- */
 @import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Kanit&family=Nanum+Gothic+Coding&family=Poppins&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Yatra+One&display=swap");
-/* @import url("https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/styles/icons.css"); */
+
 :root {
   /* BODY  */
-  --background-body-color: #ffffff;
-  --texte-color-body: black;
-    /* ICONES  */
+  --background-body-color: #1b1b1f;
+  --texte-color-body: #ededed;
+  /* ICONES  */
   --background-icons-cadre: #cfcfcf;
   --border-radius-icons-cadre: 3px;
+  --color-icones: brightness(0) saturate(100%) invert(99%) sepia(13%) saturate(176%) hue-rotate(240deg) brightness(114%) contrast(86%);
   /* LOGO  */
   --taille-logo: 30px;
   /* MODAL COLOR  */
@@ -23,7 +24,6 @@
   /* MODAL TAILLE  */
   --largeur-modal-code: 710px;
   --largeur-modal-code-nav-use: 90%;
-
 }
 
 body,
@@ -41,11 +41,14 @@ html {
 
 /* Style pour le conteneur d'en-tête */
 .header {
-  position: relative; /* Permet de gérer d'autres éléments si besoin */
-  display: flex; /* Pour faciliter l'alignement */
+  position: relative;
+  /* Permet de gérer d'autres éléments si besoin */
+  display: flex;
+  /* Pour faciliter l'alignement */
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   gap: 20px;
+
 }
 
 /* MODAL COPIE CDN  */
@@ -66,13 +69,15 @@ html {
 
 /* Styles pour la modale */
 .modal {
-  display: none; /* Par défaut, masquée */
+  display: none;
+  /* Par défaut, masquée */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--background-modal); /* Fond semi-transparent */
+  background-color: var(--background-modal);
+  /* Fond semi-transparent */
   justify-content: center;
   align-items: center;
   z-index: 1000;
@@ -109,7 +114,8 @@ html {
 }
 
 .modal-content {
-  background-color: var(--color-cadre-modal); /* COULEUR CADRE MODAL */
+  background-color: var(--color-cadre-modal);
+  /* COULEUR CADRE MODAL */
   padding: 20px;
   border-radius: 5px;
   box-shadow: var(--box-shadow-modal);
@@ -130,9 +136,12 @@ pre {
 
 /* Style pour le logo */
 .icon-logo-ahp-01 {
-  height: var(--taille-logo); /* Ajustez la taille du logo */
-  width: auto; /* Maintient les proportions */
-  cursor: pointer; /* Optionnel : montre qu'il est cliquable */
+  height: var(--taille-logo);
+  /* Ajustez la taille du logo */
+  width: auto;
+  /* Maintient les proportions */
+  cursor: pointer;
+  /* Optionnel : montre qu'il est cliquable */
 }
 
 section {
@@ -141,25 +150,29 @@ section {
 
 /* Conteneur des icônes avec CADRE ICONES */
 .icon-container {
-  width: 3em; 
-  height: 3em; 
+  width: 3em;
+  height: 3em;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--background-icons-cadre); 
-  border-radius: var(--border-radius-icons-cadre); 
-  -webkit-box-shadow: inset 5px 5px 15px 5px rgba(55, 55, 55, 0.33); 
-box-shadow: inset 5px 5px 15px 5px rgba(53, 53, 53, 0.33);
+  border-radius: var(--border-radius-icons-cadre);
+
+border-radius: 3px;
+  background: linear-gradient(145deg, #18181a, #141416);
+  box-shadow: 5px 5px 13px #0d0d0e,
+    -5px -5px 13px #1f1f22;
+
   cursor: pointer;
   transition: transform 0.2s, background-color 0.2s;
-  margin: 0.5em; /* Espacement entre les cadres */
+  margin: 0.5em;
+  /* Espacement entre les cadres */
 }
 
 /* Conteneur de base */
 .icon {
-  width: 2.2em;
-  height: 2.2em;
-  fill: currentColor;
+  width: 2em;
+  height: 2em;
+  filter: var(--color-icones);
   vertical-align: middle;
   border-radius: 3px;
   cursor: pointer;
@@ -173,9 +186,11 @@ box-shadow: inset 5px 5px 15px 5px rgba(53, 53, 53, 0.33);
 
 .titre-page,
 p {
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .categorie {
@@ -192,7 +207,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .section-icones-upload {
@@ -200,7 +214,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .section-icones-logo-ahp {
@@ -208,7 +221,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .section-icones-reseaux {
@@ -216,7 +228,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .section-icones-cubic {
@@ -224,7 +235,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .copied {
@@ -236,6 +246,7 @@ p {
     background-color: #007bff;
     color: white;
   }
+
   100% {
     background-color: transparent;
     color: inherit;
@@ -350,6 +361,11 @@ p {
   background-size: contain;
 }
 
+.icon-play02 {
+  background: url("../icons/play02.svg") no-repeat center;
+  background-size: contain;
+}
+
 /* ICONES RESEAUX  */
 .icon-github01 {
   background: url("../icons/github01.svg") no-repeat center;
@@ -404,8 +420,10 @@ p {
 
 /* Footer collé en bas */
 .footer {
-  background-color: #f8f9fa; /* Couleur de fond du footer */
+  background-color: #f8f9fa;
+  /* Couleur de fond du footer */
   text-align: center;
   padding: 10px;
-  border-top: 1px solid #ddd; /* Optionnel : bordure supérieure */
+  border-top: 1px solid #ddd;
+  /* Optionnel : bordure supérieure */
 }
