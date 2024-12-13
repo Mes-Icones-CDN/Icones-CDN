@@ -12,7 +12,7 @@ fichier CSS :
 ```html
 <link
   rel="stylesheet"
-  href="https://github.com/Mes-Icones-CDN/Icones-CDN/tree/main/icons"
+  href="https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/styles/icons.css"
 />
 ```
 
