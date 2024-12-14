@@ -158,6 +158,26 @@
   background-size: contain;
 }
 
+.icon-melange-button-01 {
+  background: url("../icons/melange-button-01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-boucle-button-01 {
+  background: url("../icons/boucle-button-01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-audio-button-01 {
+  background: url("../icons/audio-button-01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-mute-button-01 {
+  background: url("../icons/mute-button-01.svg") no-repeat center;
+  background-size: contain;
+}
+
 /* ICONES POUBELLE  */
 .icon-P_Blanc_plein {
   background: url("../icons/P_Blanc_plein.svg") no-repeat center;
