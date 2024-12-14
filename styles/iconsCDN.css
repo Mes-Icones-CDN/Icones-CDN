@@ -159,7 +159,7 @@ section {
   width: var(--icons-taille);
   height: var(--icons-taille);
   filter: var(--color-icones);
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .titre-page,
