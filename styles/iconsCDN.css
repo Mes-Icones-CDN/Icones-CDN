@@ -44,6 +44,14 @@
 
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  /* Centre horizontalement */
+  align-items: center;
+  /* Centre verticalement */
+}
+
 /* MODAL COPIE CDN  */
 /* Style pour le bouton */
 .open-modal-btn {
