@@ -11,7 +11,7 @@
   --color-icones: brightness(0) saturate(100%) invert(99%) sepia(13%) saturate(176%) hue-rotate(240deg) brightness(114%) contrast(86%);
   /* ICONES TAILLE  */
   --icons-taille: 2em;
-  --cadre-icons-taille: 4em;
+  --cadre-icons-taille: 3em;
 
   /* LOGO  */
   --taille-logo: 30px;
@@ -352,11 +352,6 @@ p {
 /* ICONES LOGO  */
 .icon-logo-ahp-3D {
   background: url("../icons/logo-ahp-3D.svg") no-repeat center;
-  background-size: contain;
-}
-
-.icon-3Dwhite-logo-ahp {
-  background: url("../icons/3Dwhite-logo-ahp.svg") no-repeat center;
   background-size: contain;
 }
 
