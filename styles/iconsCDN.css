@@ -224,6 +224,11 @@
   background-size: contain;
 }
 
+.icon-moin-button-02 {
+  background: url("../icons/moin-button-02.svg") no-repeat center;
+  background-size: contain;
+}
+
 /* ICONES POUBELLE  */
 .icon-P_Blanc_plein {
   background: url("../icons/P_Blanc_plein.svg") no-repeat center;
