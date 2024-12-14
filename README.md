@@ -2,7 +2,8 @@
 
 Une collection d'icônes personnalisées pour vos projets web.
 
-### Accedez a la page GitHub: 
+### Accedez a la page GitHub:
+
 (Cliquez sur l' icone choisi pour copier la balise "div" dans votre presse-papier)
 https://mes-icones-cdn.github.io/Icones-CDN/
 
@@ -11,7 +12,10 @@ https://mes-icones-cdn.github.io/Icones-CDN/
 ## Fichier CSS (Integration Html) :
 
 ```html
-<link rel="stylesheet" href="https://mes-icones-cdn.github.io/Mes-Icones-CDN/styles/iconsCDN.css" />
+<link
+  rel="stylesheet"
+  href="https://mes-icones-cdn.github.io/Mes-Icones-CDN/styles/iconsCDN.css"
+/>
 ```
 
 ## Utilisations HTML (Exemple):
