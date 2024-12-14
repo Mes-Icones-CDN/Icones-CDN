@@ -30,18 +30,7 @@
   --largeur-modal-code-nav-use: 90%;
 }
 
-body,
-html {
-  margin: 0;
-  padding: 0;
-  background: var(--background-body-color);
-  color: var(--texte-color-body);
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  height: 100%;
-  font-family: Poppins, sans-serif;
-}
+
 
 /* Style pour le conteneur d'en-tête */
 .header {
