@@ -1,6 +1,7 @@
 /* Conteneur de base */
 .icon {
   display: inline-block;
+  filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(815%) hue-rotate(206deg) brightness(100%) contrast(88%);
 }
 
 /* ICONES CUBIC  */
