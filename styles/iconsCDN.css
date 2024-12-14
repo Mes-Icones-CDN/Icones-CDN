@@ -137,6 +137,27 @@
   background-size: contain;
 }
 
+/* ICONES LECTEUR  */
+.icon-play-button-01 {
+  background: url("../icons/play-button-01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-pause-button-01 {
+  background: url("../icons/pause-button-01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-precedent-button-01 {
+  background: url("../icons/precedent-button-01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-suivant-button-01 {
+  background: url("../icons/suivant-button-01.svg") no-repeat center;
+  background-size: contain;
+}
+
 /* ICONES POUBELLE  */
 .icon-P_Blanc_plein {
   background: url("../icons/P_Blanc_plein.svg") no-repeat center;
