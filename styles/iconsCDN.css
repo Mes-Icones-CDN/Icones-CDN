@@ -1,7 +1,234 @@
+/* ---------- ⥥ ICON LIBRARY STYLES ⥥ ---------- */
+@import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Kanit&family=Nanum+Gothic+Coding&family=Poppins&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Yatra+One&display=swap");
+
+:root {
+  /* BODY  */
+  --background-body-color: none;
+  --texte-color-body: #000000;
+  /* ICONES  */
+  --background-icons-cadre: #cfcfcf;
+  --border-radius-icons-cadre: 3px;
+  --color-icones: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(815%) hue-rotate(206deg) brightness(100%) contrast(88%);
+  /* ICONES TAILLE  */
+  --icons-taille: 2em;
+  --cadre-icons-taille: 3em;
+
+  /* LOGO  */
+  --taille-logo: 30px;
+  /* MODAL COLOR  */
+  --color-bouton: #202a4d;
+  --color-bouton-hover: #636bad;
+  --background-modal: rgba(0, 0, 0, 0.675);
+  --box-shadow-modal: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  --color-cadre-modal: #476a90;
+  --color-champ-code-modal: #ffffff;
+  --color-close-bouton: #b4b4b4;
+  --color-close-bouton-hover: white;
+  --color-texte-bouton: white;
+  /* MODAL TAILLE  */
+  --largeur-modal-code: 710px;
+  --largeur-modal-code-nav-use: 90%;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: var(--background-body-color);
+  color: var(--texte-color-body);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  font-family: Poppins, sans-serif;
+}
+
+/* Style pour le conteneur d'en-tête */
+.header {
+  position: relative;
+  /* Permet de gérer d'autres éléments si besoin */
+  display: flex;
+  /* Pour faciliter l'alignement */
+  align-items: center;
+  padding: 5px;
+  gap: 20px;
+
+}
+
+/* MODAL COPIE CDN  */
+/* Style pour le bouton */
+.open-modal-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: var(--color-bouton);
+  color: var(--color-texte-bouton);
+  border: none;
+  border-radius: 3px;
+}
+
+.open-modal-btn:hover {
+  background-color: var(--color-bouton-hover);
+}
+
+/* Styles pour la modale */
+.modal {
+  display: none;
+  /* Par défaut, masquée */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-modal);
+  /* Fond semi-transparent */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Style pour le bouton de fermeture */
+.close-btn {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--color-close-bouton);
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.close-btn:hover {
+  color: var(--color-close-bouton-hover);
+}
+
+/* Style pour le bouton "Copier le code" */
+.copy-btn {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: var(--color-bouton);
+  color: var(--color-texte-bouton);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background-color: var(--color-bouton-hover);
+}
+
+.modal-content {
+  background-color: var(--color-cadre-modal);
+  /* COULEUR CADRE MODAL */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow-modal);
+  width: var(--largeur-modal-code-nav-use);
+  max-width: var(--largeur-modal-code);
+  text-align: center;
+}
+
+/* Style pour le cadre contenant le code */
+pre {
+  background-color: var(--color-champ-code-modal);
+  padding: 15px;
+  border-radius: 2px;
+  overflow-x: auto;
+  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+}
+
+/* Style pour le logo */
+.icon-logo-ahp-01 {
+  height: var(--taille-logo);
+  /* Ajustez la taille du logo */
+  width: auto;
+  /* Maintient les proportions */
+  cursor: pointer;
+  /* Optionnel : montre qu'il est cliquable */
+}
+
+section {
+  flex: 1;
+}
+
+
+
 /* Conteneur de base */
 .icon {
-  display: inline-block;
-  filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(815%) hue-rotate(206deg) brightness(100%) contrast(88%);
+  width: var(--icons-taille);
+  height: var(--icons-taille);
+  filter: var(--color-icones);
+  vertical-align: middle;
+}
+
+.titre-page,
+p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.categorie {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SECTION ICONES  */
+
+.section-icones-poubelle {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-icones-upload {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-icones-logo-ahp {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-icones-reseaux {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-icones-cubic {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copied {
+  animation: copiedAnimation 0.5s ease-in-out;
+}
+
+@keyframes copiedAnimation {
+  0% {
+    background-color: #007bff;
+    color: white;
+  }
+
+  100% {
+    background-color: transparent;
+    color: inherit;
+  }
 }
 
 /* ICONES CUBIC  */
@@ -97,18 +324,18 @@
 }
 
 /* ICONES LOGO  */
-.icon-logo-ahp-01 {
-  background: url("../icons/logo-ahp-01.svg") no-repeat center;
-  background-size: contain;
-}
-
-.icon-3Dwhite-logo-ahp {
-  background: url("../icons/3Dwhite-logo-ahp.svg") no-repeat center;
+.icon-logo-ahp-3D {
+  background: url("../icons/logo-ahp-3D.svg") no-repeat center;
   background-size: contain;
 }
 
 .icon-play {
   background: url("../icons/play.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-play02 {
+  background: url("../icons/play02.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -162,4 +389,14 @@
 .icon-bin-plein {
   background: url("../icons/bin-plein.svg") no-repeat center;
   background-size: contain;
+}
+
+/* Footer collé en bas */
+.footer {
+  background-color: #f8f9fa4d;
+  /* Couleur de fond du footer */
+  text-align: center;
+  padding: 10px;
+  color: var(--background-body-color)
+    /* Optionnel : bordure supérieure */
 }
