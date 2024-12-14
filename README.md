@@ -7,20 +7,20 @@ https://mes-icones-cdn.github.io/Icones-CDN/
 
 ## Utilisation
 
-fichier CSS (Integration Html) :
+Fichier CSS (Integration Html) :
 
 ```html
 <link rel="stylesheet" href="https://mes-icones-cdn.github.io/Mes-Icones-CDN/styles/iconsCDN.css" />
 ```
 
-UTILISATION HTML (Exemple):
+Utilisations HTML (Exemple):
 
 ```html
 <div class="icon icon-P_Noire_plein"></div>
 <i class="icon icon-P_Noire_plein"></i>
 ```
 
-SOUS FORME D'IMAGE HTML:
+Sous forme d' image HTML:
 
 ```html
 <img
