@@ -178,6 +178,52 @@
   background-size: contain;
 }
 
+/* 02  */
+.icon-play-button-02 {
+  background: url("../icons/play-button-02.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-pause-button-02 {
+  background: url("../icons/pause-button-02.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-precedent-button-02 {
+  background: url("../icons/precedent-button-02.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-suivant-button-02 {
+  background: url("../icons/suivant-button-02.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-melange-button-02 {
+  background: url("../icons/melange-button-02.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-boucle-button-02 {
+  background: url("../icons/boucle-button-02.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-audio-button-02 {
+  background: url("../icons/audio-button-02.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-mute-button-02 {
+  background: url("../icons/mute-button-02.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-plus-button-02 {
+  background: url("../icons/plus-button-02.svg") no-repeat center;
+  background-size: contain;
+}
+
 /* ICONES POUBELLE  */
 .icon-P_Blanc_plein {
   background: url("../icons/P_Blanc_plein.svg") no-repeat center;
