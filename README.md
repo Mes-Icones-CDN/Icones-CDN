@@ -1,9 +1,9 @@
-# My Icon Library
+# Ma librairie d' ICONE
 
 Une collection d'icônes personnalisées pour vos projets web.
 
-Accedez a la page GitHub: 
-(Cliquez sur l' icone choisi pour copier la balise "<div></div>" dans votre presse-papier)
+### Accedez a la page GitHub: 
+(Cliquez sur l' icone choisi pour copier la balise "div" dans votre presse-papier)
 https://mes-icones-cdn.github.io/Icones-CDN/
 
 # Utilisation
