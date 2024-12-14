@@ -3,7 +3,7 @@
 Une collection d'icônes personnalisées pour vos projets web.
 
 Accedez a la page:
-https://mes-icones-cdn.github.io/Poubelles-Icones-CDN/
+https://mes-icones-cdn.github.io/Icones-CDN/
 
 ## Utilisation
 
