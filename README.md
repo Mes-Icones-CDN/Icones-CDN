@@ -2,25 +2,26 @@
 
 Une collection d'icônes personnalisées pour vos projets web.
 
-Accedez a la page GitHub:
+Accedez a la page GitHub: 
+(Cliquez sur l' icone choisi pour copier la balise "<div></div>" dans votre presse-papier)
 https://mes-icones-cdn.github.io/Icones-CDN/
 
 ## Utilisation
 
-Fichier CSS (Integration Html) :
+# Fichier CSS (Integration Html) :
 
 ```html
 <link rel="stylesheet" href="https://mes-icones-cdn.github.io/Mes-Icones-CDN/styles/iconsCDN.css" />
 ```
 
-Utilisations HTML (Exemple):
+# Utilisations HTML (Exemple):
 
 ```html
 <div class="icon icon-P_Noire_plein"></div>
 <i class="icon icon-P_Noire_plein"></i>
 ```
 
-Sous forme d' image HTML:
+# Sous forme d' image HTML:
 
 ```html
 <img
