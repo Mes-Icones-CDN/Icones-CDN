@@ -55,6 +55,7 @@ html {
 
 }
 
+/* #region ---------- ⥥ PRINCIPAL ⥥ ---------- */
 /* MODAL COPIE CDN  */
 /* Style pour le bouton */
 .open-modal-btn {
@@ -204,7 +205,9 @@ p {
   justify-content: center;
 }
 
-/* SECTION ICONES  */
+/* #endregion */
+
+/* #region ---------- ⥥ SECTION ICONES ⥥ ---------- */
 
 .section-icones-poubelle {
   margin-bottom: 50px;
@@ -255,6 +258,11 @@ p {
   justify-content: center;
 }
 
+/* #endregion */
+
+
+
+
 .copied {
   animation: copiedAnimation 0.5s ease-in-out;
 }
@@ -271,7 +279,8 @@ p {
   }
 }
 
-/* ICONES CUBIC  */
+/* #region ---------- ⥥ ICONES CUBIC ⥥ ---------- */
+
 .icon-ballon-cubic {
   background: url("../icons/ballon-cubic.svg") no-repeat center;
   background-size: contain;
@@ -342,7 +351,11 @@ p {
   background-size: contain;
 }
 
-/* ICONES UPLOAD  */
+/* #endregion */
+
+
+/* #region ---------- ⥥ ICONES UPLOAD ⥥ ---------- */
+
 .icon-Upload-01 {
   background: url("../icons/Upload-01.svg") no-repeat center;
   background-size: contain;
@@ -363,7 +376,11 @@ p {
   background-size: contain;
 }
 
-/* ICONES LOGO  */
+/* #endregion */
+
+
+/* #region ---------- ⥥ ICONES LOGO ⥥ ---------- */
+
 .icon-logo-ahp-3D {
   background: url("../icons/logo-ahp-3D.svg") no-repeat center;
   background-size: contain;
@@ -379,7 +396,11 @@ p {
   background-size: contain;
 }
 
-/* ICONES RESEAUX  */
+/* #endregion */
+
+
+/* #region ---------- ⥥ ICONES RESEAUX ⥥ ---------- */
+
 .icon-github01 {
   background: url("../icons/github01.svg") no-repeat center;
   background-size: contain;
@@ -390,8 +411,11 @@ p {
   background-size: contain;
 }
 
-/* ICONES LECTEUR  */
-/* 01  */
+/* #endregion */
+
+
+/* #region ---------- ⥥ ICONES LECTEUR ⥥ ---------- */
+
 .icon-play-button-01 {
   background: url("../icons/play-button-01.svg") no-repeat center;
   background-size: contain;
@@ -483,7 +507,11 @@ p {
   background-size: contain;
 }
 
-/* ICONES POUBELLE  */
+/* #endregion */
+
+
+/* #region ---------- ⥥ ICONES POUBELLE ⥥ ---------- */
+
 .icon-P_Blanc_plein {
   background: url("../icons/P_Blanc_plein.svg") no-repeat center;
   background-size: contain;
@@ -523,6 +551,8 @@ p {
   background: url("../icons/bin-plein.svg") no-repeat center;
   background-size: contain;
 }
+
+/* #endregion */
 
 /* Footer collé en bas */
 .footer {
