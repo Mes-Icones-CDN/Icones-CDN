@@ -555,6 +555,27 @@ p {
 
 /* #endregion */
 
+
+/* #region ---------- ⥥ ICI ⥥ ---------- */
+.icon-utility-search-01 {
+  background: url("../icons/utility-search-01.svg") no-repeat center;
+  background-size: contain;
+  filter: none;
+}
+
+.icon-utility-search-02 {
+  background: url("../icons/utility-search-02.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-utility-search-03 {
+  background: url("../icons/utility-search-03.svg") no-repeat center;
+  background-size: contain;
+}
+/* #endregion */
+
+
+
 /* Footer collé en bas */
 .footer {
   background-color: #f8f9fa4d;
