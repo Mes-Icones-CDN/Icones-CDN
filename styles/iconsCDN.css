@@ -17,6 +17,10 @@
   height: 24px;
 }
 
+.section-icones .icon-container #icones-color {
+  filter: none;
+}
+
 
 
 /* #region ---------- ⥥ ICONES CUBIC ⥥ ---------- */
@@ -139,6 +143,47 @@
 
 .icon-github02 {
   background: url("../icons/github02.svg") no-repeat center;
+  background-size: contain;
+}
+
+/* 02  */
+.icon-chrome01 {
+  background: url("../icons/chrome01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-facebook01 {
+  background: url("../icons/facebook01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-instagram01 {
+  background: url("../icons/instagram01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-phone01 {
+  background: url("../icons/phone01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-playstore01 {
+  background: url("../icons/playstore01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-windows01 {
+  background: url("../icons/windows01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-x01 {
+  background: url("../icons/x01.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-youtube01 {
+  background: url("../icons/youtube01.svg") no-repeat center;
   background-size: contain;
 }
 
