@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Reseaux';
+    src:
+        /* url('my-icons.woff2') format('woff2'),
+        url('my-icons.woff') format('woff'), */
+        url('/ttf_woff/crt_01.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
