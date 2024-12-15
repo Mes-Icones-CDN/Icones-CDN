@@ -556,7 +556,7 @@ p {
 /* #endregion */
 
 
-/* #region ---------- ⥥ ICI ⥥ ---------- */
+/* #region ---------- ⥥ ICONES UTILITY ⥥ ---------- */
 .icon-utility-search-01 {
   background: url("../icons/utility-search-01.svg") no-repeat center;
   background-size: contain;
@@ -570,6 +570,11 @@ p {
 
 .icon-utility-search-03 {
   background: url("../icons/utility-search-03.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-utility-search-04 {
+  background: url("../icons/utility-search-04.svg") no-repeat center;
   background-size: contain;
 }
 /* #endregion */
