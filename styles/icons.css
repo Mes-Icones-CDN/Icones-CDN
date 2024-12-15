@@ -169,7 +169,7 @@ section {
 
   cursor: pointer;
   transition: transform 0.2s, background-color 0.2s;
-  margin: 0.5em;
+  margin: 0.3em;
   /* Espacement entre les cadres */
 }
 
@@ -209,54 +209,15 @@ p {
 
 /* #region ---------- ⥥ SECTION ICONES ⥥ ---------- */
 
-.section-icones-poubelle {
-  margin-bottom: 50px;
+
+.section-icones {
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.section-icones-upload {
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.section-icones-logo-ahp {
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.section-icones-reseaux {
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.section-icones-lecteur {
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.section-icones-lecteur02 {
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.section-icones-cubic {
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 /* #endregion */
 
