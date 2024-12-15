@@ -501,8 +501,13 @@ p {
   background-size: contain;
 }
 
-.icon-moin-button-02 {
-  background: url("../icons/moin-button-02.svg") no-repeat center;
+.icon-delete-track-button-02 {
+  background: url("../icons/delete-track-button-02.svg") no-repeat center;
+  background-size: contain;
+}
+
+.icon-eq-button-02 {
+  background: url("../icons/eq-button-02.svg") no-repeat center;
   background-size: contain;
 }
 
