@@ -1,17 +1,5 @@
 /* ---------- ⥥ ICON LIBRARY STYLES ⥥ ---------- */
 @import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Kanit&family=Nanum+Gothic+Coding&family=Poppins&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Yatra+One&display=swap");
-@font-face {
-  font-family: 'Reseaux';
-  src:
-    /* url('my-icons.woff2') format('woff2'),
-        url('my-icons.woff') format('woff'), */
-    url('./ttf_woff/crt_01.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-
 
 
 :root {
